@@ -1,0 +1,30 @@
+# Window
+WINDOW_WIDTH = 1280
+WINDOW_HEIGHT = 720
+FPS = 30
+TITLE = "Gesture Robot Arm"
+
+# Colors
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+CYAN = (0, 255, 255)
+DARK_CYAN = (0, 150, 150)
+GRAY = (50, 50, 50)
+GREEN = (0, 255, 0)
+RED = (255, 0, 0)
+
+# Robot Arm
+SEGMENT_LENGTHS = [150, 120, 80]  # shoulder, elbow, wrist in pixels
+SEGMENT_COLORS = [CYAN, DARK_CYAN, WHITE]
+JOINT_RADIUS = 10
+SEGMENT_THICKNESS = 6
+ARM_BASE_X = 640
+ARM_BASE_Y = 600
+
+# Smoothing
+SMOOTHING_FACTOR = 0.15
+
+# Webcam
+WEBCAM_INDEX = 0
+WEBCAM_WIDTH = 640
+WEBCAM_HEIGHT = 360
